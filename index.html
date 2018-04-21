@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="refresh" content="5; URL=https://vberlier.github.io/json-model-viewer/">
+  <title>Redirecting...</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      color: #888;
+      box-sizing: border-box;
+      overflow: hidden;
+      background: rgba(250,250,250,1);
+      line-height: 1.7em;
+    }
+    main {
+      position: relative;
+      width: 480px;
+      height: 260px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      color: #888;
+      box-shadow: 0px 1px 8px -2px rgba(0,0,0,0.4);
+    }
+    h1 {
+      font-size: 1.3em;
+      font-weight: normal;
+      margin-bottom: 1.6em;
+    }
+    a {
+      color: #4996c7;
+      display: inline-block;
+      text-decoration: none;
+      -webkit-transition: color 0.16s ease-out;
+      -o-transition: color 0.16s ease-out;
+      transition: color 0.16s ease-out;
+      cursor: pointer;
+    }
+    a:hover {
+      color: #1d519f;
+    }
+    .spinner {
+      float: right;
+      position: relative;
+      width: 1em;
+      height: 1em;
+      border: 4px transparent solid;
+      font-size: 0.9em;
+    }
+    .spinner::before, .spinner::after {
+      content: ' ';
+      position: absolute;
+      display: block;
+      top: -4px;
+      left: -4px;
+      width: 1em;
+      height: 1em;
+      border: 4px transparent solid;
+      border-right-color: #aaa;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+    }
+    .spinner::before {
+      border-right-color: #ddd;
+      border-bottom-color: #ddd;
+      border-left-color: #ddd;
+      animation: spin 1.2s linear infinite;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Redirecting... <span class="spinner"></span></h1>
+    <p>
+      The URL of the model viewer changed. You should be redirected in a few seconds. You can also click on the new link manually.
+    </p>
+    <p>
+      <a href="https://vberlier.github.io/json-model-viewer/">https://vberlier.github.io/json-model-viewer/</a>
+    </p>
+  </main>
+</body>
+</html>
